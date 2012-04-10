@@ -1,4 +1,18 @@
 
 .slides {
+  position: fixed;
 
+  overflow: hidden;
+
+  height: 100%;
+  width: 100%;
+}
+
+.inner {
+  position: absolute;
+  -webkit-transition: left 0.25s ease-out;
+}
+
+.inner > section {
+  float: left;
 }
