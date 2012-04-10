@@ -1,0 +1,15 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org">
+
+  <body ng:controller="PersonsController">
+    <ul>
+      <li ng:repeat="person in persons" ng:click="removePerson(person)">
+        Name: {{person.name}} <br/>
+        Age: {{person.age}}
+      </li>
+    </ul>
+  </body>
+
+  <script src="../angular-0.9.19.min.js" ng:autobind></script>
+  <script type="text/javascript" src="app.js"></script>
+</html>
