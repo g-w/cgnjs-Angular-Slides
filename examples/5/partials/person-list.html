@@ -1,0 +1,7 @@
+<ul>
+  <li ng:repeat="person in persons" ng:click="removePerson(person)">
+    Name: {{person.name}} <br/>
+    Age: {{person.age}} <br/>
+    <a href="#/persons/{{person.id}}">Go!</a>
+  </li>
+</ul>
