@@ -25,3 +25,9 @@ h2.fullpage {
   font-size: 6em;
   text-align: center;
 }
+
+h3.example { 
+  font-size: 4em;
+  text-align: center;
+  text-decoration: underline;
+}
