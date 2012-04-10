@@ -16,3 +16,12 @@
 .inner > section {
   float: left;
 }
+
+h1 {
+  font-size: 8em;
+}
+
+h2.fullpage {
+  font-size: 6em;
+  text-align: center;
+}

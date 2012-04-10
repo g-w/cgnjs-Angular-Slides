@@ -11,8 +11,9 @@
             inner;
 
         slides.each(function (i, slide) {
-            $(slide).width(width);
-            $(slide).height(height);
+            $(slide).width(width - 200);
+            $(slide).height(height - 200);
+            $(slide).css('margin', '100px');
         });
 
         slides.wrapAll("<div class='inner'></div>");
